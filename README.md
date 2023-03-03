@@ -22,7 +22,14 @@ npm run dev
 ```
 localhost:3000/ にブラウザからアクセスして使用。　　
 
+## 使用パッケージ
 
+```
+npm i openai
+npm i axios
+```
+
+ChatGPTとは直接関係ないがデザインのために[tailwind css](https://tailwindcss.com/docs/guides/nextjs)を使用している
 
 # 以下Next.jsのデフォルトで書かれてるREADME内容
 
