@@ -1,3 +1,6 @@
+[![Image from Gyazo](https://i.gyazo.com/33e98ce97ed6b295667597b2c6a5a5f6.gif)](https://gyazo.com/33e98ce97ed6b295667597b2c6a5a5f6)　　
+　　
+
 Next.jsプロジェクトからChatGPT API(gpt-3.5-turbo)を呼び出すサンプル
 
 # 主要コード
