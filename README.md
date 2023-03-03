@@ -1,3 +1,31 @@
+Next.jsプロジェクトからChatGPT API(gpt-3.5-turbo)を呼び出すサンプル
+
+# 主要コード
+
+- [pages/api/chatgpt.ts](https://github.com/uchidama/chatgpt-api-call-on-nextjs/blob/main/pages/api/chatgpt.ts)
+    - ChatGPT APIを呼び出す。.env.local内のOPENAI_API_KEYをNEXT_PUBLIC_にしないために、pages/api/以下に配置。　　
+- [pages/index.tss](https://github.com/uchidama/chatgpt-api-call-on-nextjs/blob/main/pages/index.tsx)
+    - /api/chatgptと通信して、メッセージの送信、受け取り。
+
+## .env.local
+
+このリポジトリ内にはないが作成して、OPENAIのAPIキーを書き込む
+```
+OPENAI_API_KEY=HOGEHOGE
+```
+OPENAIのAPIキーは[ココ](https://platform.openai.com/account/api-keys)から取得する。 
+
+## 起動
+
+```
+npm run dev
+```
+localhost:3000/ にブラウザからアクセスして使用。　　
+
+
+
+# 以下Next.jsのデフォルトで書かれてるREADME内容
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
